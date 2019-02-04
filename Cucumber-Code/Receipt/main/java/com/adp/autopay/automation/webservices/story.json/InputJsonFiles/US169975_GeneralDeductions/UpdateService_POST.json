@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "serviceCategoryCode": {
+        "codeValue": "payroll",
+        "shortName": "Payroll"
+      },
+      "eventStatusCode": {
+        "codeValue": "complete",
+        "longName": "SUCCESS"
+      },
+      "eventNameCode": {
+        "codeValue": "general-deduction-configuration.change",
+        "shortName": "CHANGE"
+      },
+      "originator": {
+        "associateOID": "G35H7R2NDA06GJQJ",
+        "formattedName": "TESTUSER"
+      },
+      "actor": {
+        "associateOID": "G35H7R2NDA06GJQJ"
+      },
+      "data": {
+        "eventContext": {
+          "contextExpressionID": "W16-12/18/2015 8:38:16 AM-AB1",
+          "generalDeductionConfiguration": {
+            "itemID": "S6FlqeWN-B62QntT9E13BvfvEskbAkH0AxHSGBkSWZo="
+          }
+        },
+        "transform": {
+ 
+ 
+          "generalDeductionConfiguration": {
+            "deductionCode": {
+              "codeValue": "AB1",
+              "shortName": "UpdDED",
+              "longName": "Update Ded"
+            },
+            "deductionInArrearsIndicator": false,
+            "deductionInArrearsMaxAmount": {
+ 
+            },
+            "deductionInArrearsMaxFactorAmount": {
+ 
+            }
+ 
+          }
+        }
+      }
+    }
+  ]
+}

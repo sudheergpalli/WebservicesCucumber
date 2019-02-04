@@ -1,0 +1,76 @@
+{
+  "events":[
+    {
+      "serviceCategoryCode":{
+        "codeValue":"payroll",
+        "shortName":"Payroll"
+      },
+      "eventStatusCode":{
+        "codeValue":"submitted"
+      },
+      "eventNameCode":{
+        "codeValue":"generalDeductionConfiguration.payroll-accumulators.add",
+        "shortName":"Add Accum"
+      },
+      "actor":{
+        "associateOID":"G05MYHJKIA109879",
+        "formattedName":"Payroll Practitioner"
+      },
+      "originator":{
+        "associateOID":"G05MYHJKIA109879",
+        "formattedName":"Payroll Practitioner"
+      },
+      "data":{
+        "eventContext":{
+          "contextExpressionID":"W15-1/22/2016 7:42:28 AM-D",
+          "payrollRegionCode":{
+            "codeValue":"PA03",
+            "shortName":"Boston"
+          },
+          "payrollGroupCode":{
+            "codeValue":"W11"
+          },
+          "generalDeductionConfiguration":{
+            "itemID":"PA05,dit2:W15:D::"
+          }
+        },
+        "transform":{
+          "eventReasonCode":{
+            "codeValue":"submitted"
+          },
+          "eventStatusCode":{
+            "codeValue":"submitted"
+          },
+          "generalDeductionConfiguration":{
+            "payrollAccumulators":[
+              {
+                "accumulatorCode":{
+                  "codeValue":"m24",
+                  "shortName":" "
+                },
+                "accumulatorStatusCode":{
+                  "codeValue":"A",
+                  "shortName":" ",
+                  "effectiveDate":""
+                },
+                "accumulatorDescription":"AccOne",
+                "accumulatorConfigurationCodes":[
+                  {
+                    "shortName":"Clear 1st Quarter"
+                  },
+                  {
+                    "shortName":"Include In Download"
+                  },
+                  {
+                    "shortName":"Display On Pay Stm"
+                  }
+                ]
+              }
+            ]
+          },
+          "itemID":"f"
+        }
+      }
+    }
+  ]
+}

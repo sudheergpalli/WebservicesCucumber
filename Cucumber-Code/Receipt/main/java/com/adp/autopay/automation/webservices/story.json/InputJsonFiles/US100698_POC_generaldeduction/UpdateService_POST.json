@@ -1,0 +1,48 @@
+{
+  "events": [
+      {
+        "serviceCategoryCode": {
+          "codeValue": "payroll",
+          "shortName": "Payroll"
+        },
+        "eventStatusCode": {
+          "codeValue": "complete",
+          "longName": "SUCCESS"
+        },
+        "eventNameCode": {
+          "codeValue": "generalDeductionConfiguration.change",
+          "shortName": "CHANGE"
+        },
+        "originator": {
+          "associateOID": "1111111111111111",
+          "formattedName": "Green Box Add Ded"
+        },
+        "actor": {
+          "associateOID": "1111111111111111"
+        },
+        "data": {
+          "eventContext": {
+            "contextExpressionID": "N33-1/28/2016 8:42:08 AM-SMA-MUD",
+            "generalDeductionConfiguration": {
+              "itemID": "PA05:N33:SMA:::"
+            }
+          },
+          "transform": {
+            "generalDeductionConfiguration": {
+              "deductionCode": {
+                "codeValue": "SMA",
+                "shortName": "UpdSht",
+                "longName": "Upd Long Lit"
+              },
+              "deductionInArrearsIndicator": false,
+              "deductionInArrearsMaxAmount": {
+              },
+              "deductionInArrearsMaxFactorAmount": {
+              }
+
+            }
+          }
+        }
+      }
+    ]
+  }

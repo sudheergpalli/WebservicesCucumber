@@ -1,0 +1,60 @@
+{
+  "events": [
+    {
+      "serviceCategoryCode": {
+        "codeValue": "payroll",
+        "shortName": "Payroll"
+      },
+      "eventStatusCode": {
+        "codeValue": "submitted"
+      },
+      "eventNameCode": {
+        "codeValue": "generalDeductionConfiguration.payrollAccumulators.change",
+        "shortName": "change"
+      },
+      "actor": {
+        "associateOID": "G05MYHJKIA109879",
+        "formattedName": "Bob Payroll Practitioner"
+      },
+      "originator": {
+        "associateOID": "G05MYHJKIA109879",
+        "formattedName": "Bob Payroll Practitioner"
+      },
+      "data": {
+        "eventContext": {
+          "contextExpressionID": "W15-1/22/2016 7:54:05 AM-D",
+          "generalDeductionConfiguration": {
+            "itemID": "PA05,DIT2:W15:D::",
+            "payrollAccumulator": {
+              "itemID": "PA05,DIT2:W15:D:m24::"
+            }
+          }
+        },
+        "transform": {
+          "eventReasonCode": {
+            "codeValue": "submitted"
+          },
+          "eventStatusCode": {
+            "codeValue": "submitted"
+          },
+
+
+          "generalDeductionConfiguration": {
+            "payrollAccumulator": {
+              "accumulatorCode": {
+                "codeValue": "m24",
+                "shortName": "1"
+              },
+              "accumulatorStatusCode": {
+                "codeValue": "A"
+
+              },
+              "accumulatorDescription": "UPDAT14 - ALM",
+              "accumulatorConfigurationCodes": [{"shortName":"Clear 4th Quarter"},{"shortName":"Include In Download"}]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

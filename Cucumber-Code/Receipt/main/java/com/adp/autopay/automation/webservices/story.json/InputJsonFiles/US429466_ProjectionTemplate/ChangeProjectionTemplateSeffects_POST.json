@@ -1,0 +1,54 @@
+{
+  "events":[
+    {
+      "eventNameCode":{
+        "codeValue":"payroll-processing-schedule-projection-template.modify"
+      },
+      "originator":{
+        "associateOID":"RAJEEV@ADP.COM",
+        "formattedName":"undefined"
+      },
+      "actor":{
+        "associateOID":"RAJEEV@ADP.COM"
+      },
+      "data":{
+        "eventContext":{
+          "contextExpressionID":"aa09719e-e58e-c148-6e99-641f37aea278",
+          "payrollProcessingScheduleProjectionTemplate":{
+            "itemID":"pnYy0YE0vSHA85ezdGN0NlM5txPa6FbFq-F+xU7JH2o="
+          }
+        },
+        "transform":{
+          "payrollProcessingScheduleProjectionTemplate":{
+            "scheduleName":"PAYROLL SCHEDULE NUMBER 1",
+            "payrollCycleCode":{
+              "codeValue":"BE",
+              "shortName":"BE"
+            },
+            "payrollHolidays":[
+
+            ],
+            "includedConfigurationTags":[
+              {
+                "tagCode":"10",
+                "tagType":{
+                  "dataTypeCode":"String"
+                },
+                "tagValues":[
+                  "Bonus Payroll with supplemental wage calculation"
+                ],
+                "scheduleCycleCode":{
+                  "codeValue":"LPDM",
+                  "shortName":"Last Pay Date In Month",
+                  "longName":"Every Payroll"
+                },
+                "_modificationTypeCode":"change"
+              }
+            ],
+            "itemID":"pnYy0YE0vSHA85ezdGN0NlM5txPa6FbFq-F+xU7JH2o="
+          }
+        }
+      }
+    }
+  ]
+}

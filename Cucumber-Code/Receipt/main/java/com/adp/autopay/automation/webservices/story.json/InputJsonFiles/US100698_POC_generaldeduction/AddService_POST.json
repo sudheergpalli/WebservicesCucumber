@@ -1,0 +1,65 @@
+{
+  "events":[
+    {
+      "serviceCategoryCode":{
+        "codeValue":"payroll",
+        "shortName":"Payroll"
+      },
+      "eventStatusCode":{
+        "codeValue":"submitted"
+      },
+      "eventNameCode":{
+        "codeValue":"general-deduction-configuration.add",
+        "shortName":"Add"
+      },
+      "actor":{
+        "associateOID":"1111111111111111",
+        "formattedName":"Green Box Add Ded"
+      },
+      "originator":{
+        "associateOID":"1111111111111111",
+        "formattedName":"Green Box Add Ded"
+      },
+      "data":{
+        "eventContext":{
+          "contextExpressionID":"K45-10/28/2015 4:15:27 PM-T81"
+        },
+        "transform":{
+          "eventReasonCode":{
+            "codeValue":"submitted"
+          },
+          "eventStatusCode":{
+            "codeValue":"submitted"
+          },
+          "generalDeductionConfiguration":{
+            "deductionCode":{
+              "codeValue":"P26",
+              "shortName":"smTest",
+              "longName":"smLong"
+            },
+            "processingPriorityCode":{
+              "shortName":"",
+              "longName":""
+            },
+            "deductionInArrearsIndicator":false,
+            "deductionInArrearsMaxAmount":{
+              "currencyCode":"USD"
+            },
+            "deductionInArrearsMaxFactorAmount":{
+              "currencyCode":"USD"
+            },
+            "configurationCodes":[
+              {
+
+              }
+            ],
+            "payrollAccumulators":[
+
+            ]
+          },
+          "itemID":"PA05:K45:P26::"
+        }
+      }
+    }
+  ]
+}

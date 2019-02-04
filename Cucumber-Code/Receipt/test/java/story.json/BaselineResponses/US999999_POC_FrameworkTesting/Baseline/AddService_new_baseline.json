@@ -1,0 +1,96 @@
+{
+  "events" :
+  [
+    {
+      "actor" :
+      {
+        "formattedName" :
+        "Green Box Add Ded"
+      ,
+        "associateOID" :
+        "1111111111111111"
+      }
+    ,
+      "eventNameCode" :
+      {
+        "shortName" :
+        "Add"
+      ,
+        "codeValue" :
+        "general-deduction-configuration.add"
+      }
+    ,
+      "data" :
+      {
+        "output" :
+        {
+          "generalDeductionConfiguration" :
+          {
+            "itemID" :
+            "MYbX6VNRPkYzjFLT9g6AAc2S8+l0QN9mAADHVlSu8UQ="
+          ,
+            "deductionCode" :
+            {
+              "shortName" :
+              "maAuto"
+            ,
+              "codeValue" :
+              "P18"
+            ,
+              "longName" :
+              "maAutoLong"
+            }
+          ,
+            "effectiveDateTime" :
+            "2016-01-01"
+          ,
+            "endDateTime" :
+            "9999-12-30"
+          ,
+            "processingPriorityCode" :
+            {}
+          ,
+            "deductionInArrearsIndicator" :
+            false
+          }
+        }
+      ,
+        "eventContext" :
+        {
+          "generalDeductionConfiguration" :
+          {
+            "itemID" :
+            "MYbX6VNRPkYzjFLT9g6AAc2S8+l0QN9mAADHVlSu8UQ="
+          }
+        ,
+          "contextExpressionID" :
+          "W16-02/08/2016 9:25:27 AM-P18"
+        }
+      }
+    ,
+      "serviceCategoryCode" :
+      {
+        "shortName" :
+        "Payroll"
+      ,
+        "codeValue" :
+        "payroll"
+      }
+    ,
+      "originator" :
+      {
+        "formattedName" :
+        "Green Box Add Ded"
+      ,
+        "associateOID" :
+        "1111111111111111"
+      }
+    ,
+      "eventStatusCode" :
+      {
+        "codeValue" :
+        "submitted"
+      }
+    }
+  ]
+}

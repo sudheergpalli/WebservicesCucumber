@@ -1,0 +1,72 @@
+[
+{
+  "events": [
+    {
+      "serviceCategoryCode": {
+        "codeValue": "payroll",
+        "shortName": "Payroll"
+      },
+      "eventStatusCode": {
+        "codeValue": "submitted"
+      },
+      "eventNameCode": {
+        "codeValue": "generalDeductionConfiguration.add",
+        "shortName": "Add"
+      },
+      "actor": {
+        "associateOID": "G38E8GBQ70A4FFMX",
+        "formattedName": "Green Box Add Ded"
+      },
+      "originator": {
+        "associateOID": "G38E8GBQ70A4FFMX",
+        "formattedName": "Green Box Add Ded"
+      },
+      "data": {
+        "eventContext": {
+          "contextExpressionID": "N33-1/28/2016 8:41:57 AM-SMAMAD"
+        },
+        "transform": {
+          "eventReasonCode": {
+            "codeValue": "submitted"
+          },
+          "eventStatusCode": {
+            "codeValue": "submitted"
+          },
+ 
+ 
+          "generalDeductionConfiguration": {
+            "deductionCode": {
+              "codeValue": "SMA",
+              "shortName": "shtLit",
+              "longName": "Long Literal"
+            },
+            "processingPriorityCode": {
+ 
+              "shortName": "",
+              "longName": ""
+            },
+            "deductionInArrearsIndicator": false,
+            "deductionInArrearsMaxAmount": {
+ 
+              "currencyCode": "USD"
+            },
+            "deductionInArrearsMaxFactorAmount": {
+ 
+              "currencyCode": "USD"
+            },
+            "configurationCodes": [
+              {
+ 
+              }
+            ],
+            "payrollAccumulators": [
+              {"accumulatorCode":{"codeValue":"SM1","shortName":" "},"accumulatorStatusCode":{"codeValue": "A","shortName":" ","effectiveDate":""},"accumulatorDescription":"ACCUM1","accumulatorConfigurationCodes":[{"shortName":"Clear 1st Quarter"},{"shortName":"Display On AMC"},{"shortName":"Include In Download"}]},{"accumulatorCode":{"codeValue":"SM2","shortName":" "},"accumulatorStatusCode":{"codeValue": "A","shortName":" ","effectiveDate":""},"accumulatorDescription":" ACCUM2","accumulatorConfigurationCodes":[{"shortName":"Clear 2nd Quarter"},{"shortName":"Display On AMC"},{"shortName":"Include In Download"}]},{"accumulatorCode":{"codeValue":"SM3","shortName":" "},"accumulatorStatusCode":{"codeValue": "A","shortName":" ","effectiveDate":""},"accumulatorDescription":" ACCUM3","accumulatorConfigurationCodes":[{"shortName":"Clear 3rd Quarter"},{"shortName":"Display On AMC"},{"shortName":"Include In Download"}]},{"accumulatorCode":{"codeValue":"SM4","shortName":" "},"accumulatorStatusCode":{"codeValue": "A","shortName":" ","effectiveDate":""},"accumulatorDescription":"ACCUM4","accumulatorConfigurationCodes":[{"shortName":"Clear 4th Quarter"},{"shortName":"Display On AMC"},{"shortName":"Include In Download"},{"shortName":"Display On Pay Stmt"}]}
+            ]
+          },
+          "itemID": "PA05:N33:::"
+        }
+      }
+    }
+  ]
+}
+]

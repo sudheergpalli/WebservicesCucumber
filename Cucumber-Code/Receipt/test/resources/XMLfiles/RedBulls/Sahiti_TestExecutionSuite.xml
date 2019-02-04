@@ -1,0 +1,20 @@
+<suite name="Sahiti Tests for Web Services " parallel="none" thread-count="3">
+
+    <test name="US100698_POC_generaldeduction.feature" preserve-order="false">
+        <classes>
+            <parameter name="FeatureName" value="WIP/US999999_POC_generaldeduction.feature"/>
+            <parameter name="RunAgainst" value="DIT2"/>
+            <parameter name="ServicesDataFilePath" value="data/RedBulls/Sahiti_DataForServices.xlsx"/>
+            <parameter name="ServicesDataSheet" value="ServicesData"/>
+            <parameter name="InputDataFilePath" value="data/RedBulls/Sahiti_DataForJSONFiles.xlsx"/>
+            <parameter name="Tags" value="@List-Ve"/>
+            <parameter name="mailList" value="VenkataSatyamahesh.Gadi-Contractor@adp.com"/>
+            <parameter name="Client" value=""/>
+            <parameter name="platform" value="WINDOWS"/>
+            <parameter name="browser" value="Firefox"/>
+            <parameter name="version" value=""/>
+            <class name="com.adp.autopay.automation.cucumberRunner.RunCukesByCompositionTest"/>
+        </classes>
+    </test>
+    
+</suite>

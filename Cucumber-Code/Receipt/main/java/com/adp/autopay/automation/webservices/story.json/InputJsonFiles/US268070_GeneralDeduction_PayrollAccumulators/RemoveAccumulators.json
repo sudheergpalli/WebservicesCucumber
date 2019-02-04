@@ -1,0 +1,69 @@
+{
+  "events":[
+    {
+      "serviceCategoryCode":{
+        "codeValue":"payroll",
+        "shortName":"Payroll"
+      },
+      "eventStatusCode":{
+        "codeValue":"submitted"
+      },
+      "eventNameCode":{
+        "codeValue":"generalDeductionConfiguration.payrollAccumulators.remove",
+        "shortName":"RemoveEVENT"
+      },
+      "actor":{
+        "associateOID":"G05MYHJKIA109879",
+        "formattedName":"Bob Payroll Practitioner"
+      },
+      "originator":{
+        "associateOID":"G05MYHJKIA109879",
+        "formattedName":"Bob Payroll Practitioner"
+      },
+      "data":{
+        "eventContext":{
+          "contextExpressionID":"W15-1/22/2016 8:22:03 AM-D",
+          "generalDeductionConfiguration":{
+            "itemID":"PA05:W15:D:2016-01-01:9999-12-30:"
+          }
+        },
+        "output":{
+          "generalDeductionConfiguration":{
+            "deductionCode":{
+              "codeValue":"D",
+              "shortName":"DENCTY",
+              "longName":"DENTAL CTY"
+            },
+            "effectiveDateTime":"2016-01-01",
+            "endDateTime":"9999-12-30",
+            "deductionInArrearsIndicator":false,
+            "payrollAccumulators":[
+              {
+                "accumulatorCode":{
+                  "codeValue":"m24",
+                  "shortName":"m24"
+                },
+                "accumulatorDescription":"ACCONE",
+                "accumulatorStatusCode":{
+                  "codeValue":"A",
+                  "shortName":"Active",
+                  "effectiveDate":"2016-01-01"
+                },
+                "accumulatorConfigurationCodes":[
+                  {
+                    "shortName":"Clear 2nd Quarter"
+                  },
+                  {
+                    "shortName":"Include In Download"
+                  }
+                ],
+                "itemID":"PA05:W15:D:M24:2016-01-01:9999-12-30:"
+              }
+            ],
+            "itemID":"PA05:W15:D:2016-01-01:9999-12-30:"
+          }
+        }
+      }
+    }
+  ]
+}

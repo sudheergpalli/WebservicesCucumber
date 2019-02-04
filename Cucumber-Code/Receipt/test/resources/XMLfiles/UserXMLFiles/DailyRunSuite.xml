@@ -1,0 +1,7 @@
+<suite name="DailySmokeTestSuite">
+       <suite-files>
+             <suite-file path="C:\Automation\Cucumber\Autopay-POC\Autopay-POC\src\test\java\UserXMLFiles\SmokeTest_General_Deductions.xml"/>
+              <suite-file path="C:\Automation\Cucumber\Autopay-POC\Autopay-POC\src\test\java\UserXMLFiles\GreenBox_WebServices_POC.xml"/>
+              <suite-file path="C:\Automation\Cucumber\Autopay-POC\Autopay-POC\src\test\java\UserXMLFiles\SmokeTest_General_Deductions.xml"/>
+       </suite-files>
+</suite>

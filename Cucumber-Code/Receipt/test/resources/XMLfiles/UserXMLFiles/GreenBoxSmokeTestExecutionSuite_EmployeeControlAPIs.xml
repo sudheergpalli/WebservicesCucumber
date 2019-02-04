@@ -1,0 +1,20 @@
+<suite name="Cucumber Framework Demo Tests for Employee Control APIs" parallel="none" thread-count="3">
+
+    <test name="US100699_POC_TaxProfileEmployeeControlAPI.feature" preserve-order="false">
+        <classes>
+            <parameter name="FeatureName" value="WIP/US100699_POC_TaxProfileEmployeeControlAPI.feature"/>
+            <parameter name="RunAgainst" value="DIT1"/>
+            <parameter name="ServicesDataFilePath" value="data/Sample_DataForServices.xlsx"/>
+            <parameter name="ServicesDataSheet" value="EmployeeControl_ServicesData"/>
+            <parameter name="InputDataFilePath" value="data/Sample_DataForJSONFiles.xlsx"/>
+            <parameter name="Tags" value="@Special"/>
+            <parameter name="mailList" value="VenkataSatyamahesh.Gadi-Contractor@adp.com"/>
+            <parameter name="Client" value=""/>
+            <parameter name="platform" value="WINDOWS"/>
+            <parameter name="browser" value="Firefox"/>
+            <parameter name="version" value=""/>
+            <class name="com.adp.autopay.automation.cucumberRunner.RunCukesByCompositionTest"/>
+        </classes>
+    </test>
+    
+</suite>

@@ -1,0 +1,20 @@
+<suite name="Cucumber Framework Demo - Special Effects API Testing" parallel="none" thread-count="3">
+
+    <test name="US378794_SpecialEffects.feature" preserve-order="false">
+        <classes>
+            <parameter name="FeatureName" value="WIP/US378794_SpecialEffects.feature"/>
+            <parameter name="RunAgainst" value="DIT2"/>
+            <parameter name="ServicesDataFilePath" value="data/Sample_DataForServices.xlsx"/>
+            <parameter name="ServicesDataSheet" value="ServicesData"/>
+            <parameter name="InputDataFilePath" value="data/Sample_DataForJSONFiles.xlsx"/>
+            <parameter name="Tags" value="@SE_GET_HOLIDAYS,@SE_GET_SPECIALEFFECTS,@SE_ADD_MODIFY_REMOVE,@SE_GET_ERROR"/>
+            <parameter name="mailList" value="VenkataSatyamahesh.Gadi-Contractor@adp.com"/>
+            <parameter name="Client" value=""/>
+            <parameter name="platform" value="WINDOWS"/>
+            <parameter name="browser" value="Firefox"/>
+            <parameter name="version" value=""/>
+            <class name="com.adp.autopay.automation.cucumberRunner.RunCukesByCompositionTest"/>
+        </classes>
+    </test>
+    
+  </suite>

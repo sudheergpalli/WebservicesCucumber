@@ -1,0 +1,20 @@
+<suite name="Evelyn Tests for Web Services " parallel="none" thread-count="3">
+
+    <test name="US100698_POC_generaldeduction.feature" preserve-order="false">
+        <classes>
+            <parameter name="FeatureName" value="WIP/US999999_POC_generaldeduction.feature"/>
+            <parameter name="RunAgainst" value="DIT2"/>
+            <parameter name="ServicesDataFilePath" value="data/AlphaDawgs/Evelyn_DataForServices.xlsx"/>
+            <parameter name="ServicesDataSheet" value="ServicesData"/>
+            <parameter name="InputDataFilePath" value="data/AlphaDawgs/Evelyn_DataForJSONFiles.xlsx"/>
+            <parameter name="Tags" value="@Smoke"/>
+            <parameter name="mailList" value="evelyn.martinez@adp.com"/>
+            <parameter name="Client" value=""/>
+            <parameter name="platform" value="WINDOWS"/>
+            <parameter name="browser" value="Firefox"/>
+            <parameter name="version" value=""/>
+            <class name="com.adp.autopay.automation.cucumberRunner.RunCukesByCompositionTest"/>
+        </classes>
+    </test>
+    
+</suite>

@@ -1,0 +1,47 @@
+{  
+   "events":[  
+      {  
+         "serviceCategoryCode":{  
+            "codeValue":"payroll",
+            "shortName":"Payroll"
+         },
+         "eventStatusCode":{  
+            "codeValue":"submitted"
+         },
+         "eventNameCode":{  
+            "codeValue":"payroll-item-group.add",
+            "shortName":"add"
+         },
+         "actor":{  
+            "associateOID":"G2340H11TL98124",
+            "formattedName":"Bob Payroll Practitioner"
+         },
+         "originator":{  
+            "associateOID":"G2340H11TL98124",
+            "formattedName":"Bob Payroll Practitioner"
+         },
+         "data":{  
+            "eventContext":{  
+               "contextExpressionID":"PIC-CHG-{CURRENT_TIMESTAMP}-300",
+               "payrollItemGroup":{  
+                  "itemID":"PA05:K45:22"
+               }
+            },
+            "transform":{  
+               "eventReasonCode":{  
+                  "codeValue":"submitted"
+               },
+               "eventStatusCode":{  
+                  "codeValue":"submitted"
+               },
+               "payrollItemGroup":{  
+                  "payrollItemGroupCode":{  
+                     "codeValue":"22",
+                     "shortName":"Add Group Test"
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

@@ -1,0 +1,51 @@
+[
+{
+  "events": [
+    {
+      "serviceCategoryCode": {
+        "codeValue": "payroll",
+        "shortName": "Payroll"
+      },
+      "eventStatusCode": {
+        "codeValue": "submitted"
+      },
+      "eventNameCode": {
+        "codeValue": "generalDeductionConfiguration.remove",
+        "shortName": "REMOVE"
+      },
+      "actor": {
+        "associateOID": "G38E8GBQ70A4FFMX",
+        "formattedName": "Bob Payroll Practitioner"
+      },
+      "originator": {
+        "associateOID": "G38E8GBQ70A4FFMX",
+        "formattedName": "Bob Payroll Practitioner"
+      },
+      "data": {
+        "eventContext": {
+          "contextExpressionID": "N33-2/1/2016 11:01:54 AM-SMA",
+          "payrollRegionCode": {
+            "codeValue": "PA03",
+            "shortName": "Boston"
+          },
+          "payrollGroupCode": {
+            "codeValue": "GB2"
+          },
+          "generalDeductionConfiguration": {
+            "itemID": "PA05:N33:SMA:"
+          }
+        },
+        "transform": {
+          "eventReasonCode": {
+            "codeValue": "submitted"
+          },
+          "eventStatusCode": {
+            "codeValue": "submitted"
+          }
+        }
+      }
+    }
+  ]
+}
+
+]
